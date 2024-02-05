@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "checked": false,
+      "item": "wake up at 5"
+    },
+    {
+      "id": "2",
+      "checked": false,
+      "item": "go to bed at 8"
+    },
+    {
+      "id": "3",
+      "checked": false,
+      "item": "daily 4 hours coading"
+    }
+  ]
+}
