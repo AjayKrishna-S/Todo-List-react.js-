@@ -2,7 +2,7 @@ import './index.css';
 import Header from "./Header";
 import Content from "./Content";
 import Footer from "./Footer";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import AddItem from './AddItem';
 import SearchItem from './SearchItem';
 // import apiRequest from './apiRequest';
