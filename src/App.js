@@ -5,10 +5,10 @@ import Footer from "./Footer";
 import { useState, useEffect } from "react";
 import AddItem from './AddItem';
 import SearchItem from './SearchItem';
-import apiRequest from './apiRequest';
+// import apiRequest from './apiRequest';
 
 function App() {
-    const API_URL = `http://localhost:3500/items`;
+    // const API_URL = `http://localhost:3500/items`;
     const [items,setItems] = useState([
       {
         "id": 1,
@@ -83,7 +83,7 @@ function App() {
             item.id === id ? {...item, checked:!item.checked} : item)
            setItems(listItems);
 
-          const myItem = listItems.filter((item) => item.id === id)
+          // const myItem = listItems.filter((item) => item.id === id)
 
           // const updateOptions = {
           //   method : 'PATCH',
